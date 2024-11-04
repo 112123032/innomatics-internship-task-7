@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content p span {
+    color: red;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat i {
+    font-size: 40px;
+    color: black;
+}
+
+.stat h2 {
+    margin: 10px 0;
+    font-size: 36px;
+    color: red;
+}
+
+.stat p {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+.quote {
+    padding: 20px;
+    text-align: center;
+}
+
+.quote h2 {
+    font-size: 24px;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+
+.quote p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 20px 0;
+}
+
+.advantages, .video {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.video iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.video button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video button:hover {
+    background-color: #cc0000;
+}
+
+.video a {
+    text-decoration: none;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
